@@ -4,7 +4,7 @@ import json
 
 client = pymongo.MongoClient("mongodb+srv://kvushvl:kaushalbro1@cluster0.ajqs2ox.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
-DATA_FILE_PATH = (r"C:\Projects\fligth_price\fligth_price_predictor\fligth_price.csv")
+DATA_FILE_PATH = (r"C:\Projects\fligth_price\fligth_price_predictor\flight_price.csv")
 DATABASE_NAME = 'flight_details'
 COLLECTION_NAME = 'flight_database'
 
